@@ -1,0 +1,141 @@
+html {
+	min-width: 1000px;
+}
+.heading {
+	text-align: center;
+	color: gray;
+	font-family: "Quicksand"; /*News Cycle";*/
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+.nav {
+	list-style: none;
+	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	height: 71px;
+}
+.nav li {
+	display: inline;
+	font-family: "Quicksand", Trebuchet;
+	text-align: center;
+	text-transform: uppercase;
+}
+.nav a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+.nav a:link{
+	text-decoration: none;
+	color: gray;
+}
+.nav a:visited{
+	text-decoration: none;
+	color: gray;
+}
+.nav a:hover{
+	text-decoration: none;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+.nav a:active {
+	text-decoration: none;
+	color: gray;
+	border-bottom: 1px solid gray;
+}
+.normalimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2em;
+	height: 360px;
+}
+span #date {
+	font-color: gray;
+	text-align: center;
+	font-family: "Quicksand";
+	margin-top: 5px;
+	color: gray;
+	font-size: 150%;
+	position: relative;
+}
+#footer {
+	font-color: gray;
+	text-align: right;
+	font-family: "Quicksand";
+	color: gray;
+	font-size: 10;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+a {
+	color: gray;
+}
+#map-canvas{
+	width: 600px;
+	height: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: 0;
+}
+.normalp, h4 {
+	font-family: "Quicksand", Trebuchet;
+	text-align: left;
+	color: gray;
+	display: block;
+	margin: 10px 300px;
+	padding: 10px;
+	border-top: 1px solid gray;
+}
+.inline {
+	display: inline-block;
+}
+div.kidpics {
+	text-align: center;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.julia {
+	height: 200px;
+	padding: 5px;
+	margin-right: 0px;
+}
+img.greg {
+	height: 200px;
+	padding: 5px;
+	margin-left: 180px;
+}
+.aboutjulia {
+	font-family: "Quicksand", Trebuchet;
+	text-align: left;
+	color: gray;
+	margin: 10px 10px 10px 300px;
+	width: 330px;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+.aboutgreg {
+	font-family: "Quicksand", Trebuchet;
+	text-align: left;
+	color: gray;
+	margin: 10px 300px 10px 10px;
+	width: 330px;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+.rsvpform > input {
+	margin: 10px;
+}
+.submitbutton {
+	font-family: "Quicksand", Trebuchet;
+	height: 30px;
+	width:  100px;
+}
