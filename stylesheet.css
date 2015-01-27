@@ -110,6 +110,9 @@ img.greg {
 	height: 200px;
 	padding: 5px;
 }
+div.sidebyside {
+	text-align: center;
+}
 .aboutjulia {
 	font-family: "Quicksand", Trebuchet;
 	text-align: left;
