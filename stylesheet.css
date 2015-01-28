@@ -141,19 +141,19 @@ div.sidebyside {
 }
 .tartineleft {
 	float: left;
-	height: 150px;
+	height: 140px;
 	margin: 10px 10px 10px 300px;
 	padding: 10px;
 }
 .mttammiddle {
-	height: 150px;
+	height: 140px;
 	margin: 10px;
 	padding: 10px;
 }
 .muirbeachright {
 	float: right;
 	margin: 10px 300px 10px 10px;
-	height: 150px;
+	height: 140px;
 	padding: 10px;
 }
 .iwanttogotothere {
