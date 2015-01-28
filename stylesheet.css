@@ -104,11 +104,11 @@ div.kidpics {
 }
 img.julia {
 	height: 200px;
-	padding: 5px;
+	margin: 10px 75px 10px 10px;
 }
 img.greg {
 	height: 200px;
-	padding: 5px;
+	margin: 10px 10px 10px 75px;
 }
 div.sidebyside {
 	text-align: center;
