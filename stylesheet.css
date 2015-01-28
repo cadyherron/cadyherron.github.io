@@ -4,7 +4,7 @@ html {
 .heading {
 	text-align: center;
 	color: gray;
-	font-family: "Quicksand"; /*News Cycle";*/
+	font-family: "Quicksand", Trebuchet;
 	font-weight: normal;
 	margin-bottom: 0px;
 }
@@ -58,7 +58,7 @@ html {
 span #date {
 	font-color: gray;
 	text-align: center;
-	font-family: "Quicksand";
+	font-family: "Quicksand", Trebuchet;
 	margin-top: 5px;
 	color: gray;
 	font-size: 150%;
@@ -67,7 +67,7 @@ span #date {
 #footer {
 	font-color: gray;
 	text-align: right;
-	font-family: "Quicksand";
+	font-family: "Quicksand", Trebuchet;
 	color: gray;
 	font-size: 10;
 	position: absolute;
@@ -138,4 +138,8 @@ div.sidebyside {
 	font-family: "Quicksand", Trebuchet;
 	height: 30px;
 	width:  100px;
+}
+.tartine {
+	float: left;
+	height: 200px;
 }
