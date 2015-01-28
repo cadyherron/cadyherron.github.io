@@ -139,7 +139,21 @@ div.sidebyside {
 	height: 30px;
 	width:  100px;
 }
-.tartine {
+.tartineleft {
 	float: left;
 	height: 200px;
+	margin: 10px 300px;
+	padding: 10px;
+	border-top: 1px solid gray;
+}
+.mttammiddle {
+	display: block;
+	height: 200px;
+	margin: auto;
+}
+.muirbeachright {
+	float: right;
+	margin: 10px 300px;
+	padding: 10px;
+	border-top: 1px solid gray;
 }
