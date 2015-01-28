@@ -141,20 +141,22 @@ div.sidebyside {
 }
 .tartineleft {
 	float: left;
-	height: 200px;
-	margin: 10px 300px;
+	height: 100px;
+	margin: 10px 10px 10px 300px;
 	padding: 10px;
-	border-top: 1px solid gray;
 }
 .mttammiddle {
 	display: block;
-	height: 200px;
-	margin: auto;
+	height: 150px;
+	margin: 10px;
+	padding: 10px;
 }
 .muirbeachright {
 	float: right;
-	margin: 10px 300px;
-	height: 200px;
+	margin: 10px 300px 10px 10px;
+	height: 150px;
 	padding: 10px;
-	border-top: 1px solid gray;
+}
+.iwanttogotothere {
+	min-width: 800px;
 }
