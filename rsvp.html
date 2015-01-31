@@ -31,19 +31,18 @@
 		</div> 
 		<!-- end nav menu -->
 		<p class="normalp"><b>A formal invitation and RSVP card will be headed your way soon. If you prefer to do things on the internet, please fill out the form below!</b></p>
-		<form action="mailto:gregjuliaflanagan@gmail.com" method="GET" enctype="text/plain" class="rsvpform normalp">
-			<label>First Name: </label><input type="text"/><br>
-			<label>Last Name: </label><input type="text"/><br>
-			<label>Are you able to attend?</label>
-				<input type="checkbox" value="Yes"/>Yes
-				<input type="checkbox" value="No"/>No<br>
-			<label>Number of guests attending: </label><input type="text" style="width:40px"/><br>
-			<label>Full names of guests attending: </label><input type="text" style="width:300px; height: 50px"/><br>
-			<label>Dietary restrictions/requests: </label><input type="text" style="width:300px; height: 50px"/><br>
-
-
-			<input type="submit" value="Submit" class="submitbutton">
+		<form action="mailto:gregjuliaflanagan@gmail.com?subject=RSVP" method="post" enctype="text/plain" class="rsvpform normalp" onsubmit="this.submit(); this.reset(); return false;">
+			<label>Name: </label><input type="text" name="name"/><br>
+            <label>E-mail: </label><input type="text" name="mail"/><br>
+            <label>Please tell us about the following:</label><br>
+            <ul>
+                <li>Are you able to join us?</li>
+                <li>Number of guests attending</li>
+                <li>Full names of guests attending</li>
+                <li>Dietary restrictions/requests</li><br>
+            </ul>
+            <textarea type="text" rows="10" cols="80" name="comment"/></textarea><br>
+			<input type="submit" value="Submit" class="submitbutton"/>
 		</form>
-
 	</body>
 </html>
