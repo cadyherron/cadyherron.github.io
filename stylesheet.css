@@ -149,12 +149,12 @@ div.sidebyside {
 }
 .mttammiddle {
 	height: 140px;
-	margin: 10px 0px 0px 75px;
+	margin: 10px 0px 10px 0px;
 	padding: 10px;
 	text-align: center;
 }
 .muirbeachright {
-	float: right;
+	text-align: right;
 	margin: 10px 300px 10px 10px;
 	height: 140px;
 	padding: 10px;
